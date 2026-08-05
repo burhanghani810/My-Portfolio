@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import cvImage from '../assets/Screenshot 2026-08-03 074218.png'
+import cvImage from '../assets/Screenshot 2026-08-05 043709.png'
 
 const CV = () => {
   const [previewOpen, setPreviewOpen] = useState(false)
