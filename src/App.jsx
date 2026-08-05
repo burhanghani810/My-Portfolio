@@ -3,6 +3,7 @@ import './App.css'
 import Header from './Components/Header'
 import About from './Components/About'
 import Projects from './Components/Projects'
+import CV from './Components/CV'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 import Layout from './extras/Layout'
@@ -17,6 +18,9 @@ const App = () => {
         </section>
         <section id="projects">
           <Projects />
+        </section>
+        <section id="cv">
+          <CV />
         </section>
         <section id="contact">
           <Contact />
