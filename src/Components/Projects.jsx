@@ -2,7 +2,7 @@ import React from 'react'
 
 const sampleProjects = [
   { id: 1, title: 'Job Search Platform', desc: 'A polished job search interface built with HTML, CSS, and JavaScript.', url: 'https://burhanghani810.github.io/Indeed-job-search-project/' },
-  { id: 2, title: 'Task Manager App', desc: 'A task management web app with clean UI and efficient list interaction.', url: 'https://burhanghani810.github.io/Task-manager-web-app/' },
+  { id: 2,  title: 'Task Manager App', desc: 'A task management web app with clean UI and efficient list interaction.', url: 'https://burhanghani810.github.io/Task-manager-web-app/' },
 ]
 
 const Projects = () => {
