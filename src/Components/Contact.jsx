@@ -13,7 +13,7 @@ const Contact = () => {
         </p>
         <div className="rounded-3xl bg-slate-800 p-6 text-slate-100 shadow-sm shadow-slate-950/10">
           <p className="font-semibold text-slate-100">Email</p>
-          <a href="mailto:gmuhammadburhan@gmail.com" className="mt-2 block text-cyan-300 transition hover:text-cyan-200">gmuhammadburhan@gmail.com</a>
+          <a href="mailto:gmuhammadburhan@gmail.com" className="mt-2 block max-w-full break-words text-cyan-300 transition hover:text-cyan-200">gmuhammadburhan@gmail.com</a>
         </div>
       </div>
     </div>

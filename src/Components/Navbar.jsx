@@ -28,6 +28,7 @@ const Navbar = ({ onProfileClick }) => {
         <div className="hidden items-center gap-6 text-sm font-medium sm:flex">
           <a href="#about" className="transition hover:text-cyan-300">About</a>
           <a href="#projects" className="transition hover:text-cyan-300">Projects</a>
+          <a href="#cv" className="transition hover:text-cyan-300">CV</a>
           <a href="#contact" className="transition hover:text-cyan-300">Contact</a>
         </div>
 
@@ -59,6 +60,13 @@ const Navbar = ({ onProfileClick }) => {
               onClick={() => setMenuOpen(false)}
             >
               Projects
+            </a>
+            <a
+              href="#cv"
+              className="block rounded-lg px-3 py-2 text-slate-100 transition hover:bg-slate-900 hover:text-cyan-300"
+              onClick={() => setMenuOpen(false)}
+            >
+              CV
             </a>
             <a
               href="#contact"
