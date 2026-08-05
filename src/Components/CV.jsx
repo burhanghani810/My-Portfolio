@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import cvImage from '../assets/Screenshot 2026-08-05 043709.png'
+import cvPdf from '../utils/Burhan Web Developer CV.pdf'
 
 const CV = () => {
   const [previewOpen, setPreviewOpen] = useState(false)
@@ -19,7 +20,7 @@ const CV = () => {
             </p>
             <div className="flex flex-col gap-4 sm:flex-row">
               <a
-                href="/Burhan_CV.pdf"
+                href={cvPdf}
                 download
                 className="inline-flex items-center justify-center rounded-full bg-cyan-400 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-300"
               >
