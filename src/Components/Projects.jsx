@@ -1,9 +1,9 @@
 import React from 'react'
 
 const sampleProjects = [
-  { id: 1, title: 'Job Search Platform', desc: 'A polished job search interface built with HTML, CSS, and JavaScript. Inspired by Indeed Job search platform.', url: 'https://burhanghani810.github.io/Indeed-job-search-project/' },
-  { id: 2,  title: 'Task Manager App', desc: 'A task management web app with clean UI and efficient list interaction.', url: 'https://burhanghani810.github.io/Task-manager-web-app/' },
-  {id: 3, title: 'Decline of Mughal empire', desc:' A historical analysis of the decline of the Mughal Empire, presented in a visually engaging format.', url: 'https://burhanghani810.github.io/Decline-Of-Mughal-Empire/'},
+  { id: 1, title: 'Job Search Platform', type: 'HTML/CSS/JavaScript', desc: 'A polished job search interface built with HTML, CSS, and JavaScript. Inspired by Indeed Job search platform.', url: 'https://burhanghani810.github.io/Indeed-job-search-project/' },
+  { id: 2, title: 'Task Manager App', type: 'React', desc: 'A task management web app with clean UI and efficient list interaction.', url: 'https://burhanghani810.github.io/Task-manager-web-app/' },
+  { id: 3, title: 'Decline of Mughal empire', type: 'Static Site', desc: 'A historical analysis of the decline of the Mughal Empire, presented in a visually engaging format.', url: 'https://burhanghani810.github.io/Decline-Of-Mughal-Empire/' },
 ]
 
 const Projects = () => {
@@ -22,7 +22,7 @@ const Projects = () => {
           <article key={project.id} className="rounded-[2rem] border border-slate-700/50 bg-slate-900/80 p-8 shadow-xl shadow-cyan-500/10 transition duration-300 hover:-translate-y-1 hover:border-cyan-400/40">
             <div className="flex items-center justify-between gap-4">
               <h3 className="text-xl font-semibold text-slate-100">{project.title}</h3>
-              <span className="rounded-full bg-slate-700 px-3 py-1 text-xs uppercase tracking-[0.25em] text-slate-300">React</span>
+              <span className="rounded-full bg-slate-700 px-3 py-1 text-xs uppercase tracking-[0.25em] text-slate-300">{project.type}</span>
             </div>
             <p className="mt-4 text-slate-300 leading-7">{project.desc}</p>
             <a href={project.url} target="_blank" rel="noopener noreferrer" className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-cyan-300 transition hover:text-cyan-200">

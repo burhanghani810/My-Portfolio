@@ -14,7 +14,7 @@ const Header = () => {
                 Hi, I’m Burhan — building modern, responsive React interfaces.
               </h1>
               <p className="max-w-2xl text-base leading-8 text-slate-300">
-                I create polished front-end experiences using React, Vite, and Tailwind CSS. Explore my projects, learn about my skills, and let’s collaborate on something great.
+                I build polished full-stack applications using React, Vite, Tailwind CSS, and backend services. Explore my projects, learn about my skills, and let’s collaborate on something great.
               </p>
             </div>
             <div className="flex flex-col gap-4 sm:flex-row">
@@ -31,7 +31,7 @@ const Header = () => {
             <div className="space-y-6">
               <div>
                 <p className="text-sm uppercase tracking-[0.28em] text-cyan-200">What I do</p>
-                <h2 className="mt-4 text-2xl font-semibold text-slate-100">Front-end development with UX focus.</h2>
+                <h2 className="mt-4 text-2xl font-semibold text-slate-100">Full-stack development with UX and backend focus.</h2>
               </div>
               <ul className="space-y-4 text-slate-300">
                 <li className="rounded-3xl border border-slate-700/50 bg-slate-800 p-5">
