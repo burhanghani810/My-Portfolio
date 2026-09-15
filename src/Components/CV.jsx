@@ -1,5 +1,5 @@
 import React from 'react'
-import cvPdf from '../utils/CV-MuhammadBurhanGhani.pdf'
+import cvPdf from '../utils/MyCV.pdf'
 
 const CV = () => {
   return (
