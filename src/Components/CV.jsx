@@ -27,13 +27,14 @@ const CV = () => {
               >
                 Download CV
               </a>
-              <button
-                type="button"
-                onClick={() => setPreviewOpen(true)}
+              <a
+                href={cvPdf}
+                target="_blank"
+                rel="noreferrer"
                 className="inline-flex items-center justify-center rounded-full border border-slate-700 bg-slate-900/90 px-6 py-3 text-sm font-semibold text-cyan-300 transition hover:border-cyan-300 hover:text-cyan-200"
               >
-                Preview Image
-              </button>
+                Preview CV
+              </a>
             </div>
           </div>
 
