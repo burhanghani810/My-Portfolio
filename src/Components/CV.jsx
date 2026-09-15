@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import cvImage from '../assets/Screenshot 2026-08-05 043709.png'
-import cvPdf from '../utils/CV-MuhammadBurhanGhani.docx'
+import cvPdf from '../utils/CV-MuhammadBurhanGhani.pdf'
 
 const CV = () => {
   const [previewOpen, setPreviewOpen] = useState(false)
